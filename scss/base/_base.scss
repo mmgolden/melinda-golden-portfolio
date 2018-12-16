@@ -1,0 +1,37 @@
+// Base
+body {
+    font-size: $primary-font-size;
+    font-family: $primary-font-family;
+    color: $primary-font-color;
+    position: relative;
+    @media (min-width: 992px) {
+        padding-top: 0;
+        padding-left: $sidebar-base-width;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font-family;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.gray-bg {
+    background: $gray-bg-color;
+}
+.bg-primary {
+    background: $primary-accent-color;
+    background: $primary-gradient;
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $heading-font-color;
+    margin-bottom: 30px;
+}

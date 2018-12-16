@@ -1,0 +1,20 @@
+// Containers
+section.resume-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    max-width: 75rem;
+    .resume-item {
+      .resume-date {
+        min-width: none;
+      }
+    }
+    @media (min-width: 992px) {
+      padding-top: 80px !important;
+      padding-bottom: 80px !important;
+    }
+}
+#hero {
+  @media (min-width: 768px) {
+    min-height: 100vh;
+  }
+}

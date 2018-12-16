@@ -1,0 +1,29 @@
+// Contact
+#contact {
+    a {
+        color: $primary-accent-color;
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 30px;
+        font-weight: bold;
+        transition: color 0.5s;
+        i {
+            padding-right: 10px;
+        }
+        &:hover {
+            text-decoration: none;
+            color: $primary-font-color;
+        }
+    }
+}
+.form-control {
+    border-color: transparent;
+    border-radius: 0;
+    padding: 25px 20px;
+}
+.with-errors {
+    margin-top: 5px;
+    li {
+        color: $error-color;
+    }
+}

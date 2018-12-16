@@ -1,0 +1,45 @@
+// Buttons
+.btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    @media (min-width:992px) {
+        font-size: 1rem;
+        padding: 12px 18px;
+    }
+}
+.btn-primary {
+    background: $primary-accent-color;
+    border-width: 2px;
+    border-color: $primary-accent-color;
+    border-radius: 0;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        background: transparent;
+        border-color: $white;
+    }
+}
+.btn-outline-light {
+    border-radius: 0;
+    border-width: 2px;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        color: $white;
+        background: $primary-accent-color;
+        border-color: $primary-accent-color;
+    }
+}
+.btn-send,
+.btn-primary.disabled {
+    width: 100%;
+    opacity: 1;
+    background: $primary-accent-color;
+    border-color: $primary-accent-color;
+    &:hover,
+    &:focus {
+        background: transparent;
+        color: $primary-accent-color;
+        border-color: $primary-accent-color;
+    }
+}

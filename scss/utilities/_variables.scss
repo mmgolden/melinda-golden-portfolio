@@ -1,0 +1,18 @@
+// Color variables
+$white: #fff;
+$primary-accent-color: #3DC4DE;
+$light-gradient-color: #36D1DC;
+$dark-gradient-color: #5B86E5;
+$primary-gradient: linear-gradient(135deg, $light-gradient-color 0%,$dark-gradient-color 100%);
+$primary-font-color: #656565;
+$heading-font-color: #8a8a8a;
+$gray-bg-color: #f6f6f6;
+$error-color: #d10000;
+
+// Font variables
+$primary-font-size: 16px;
+$primary-font-family: 'Lato', sans-serif;
+$heading-font-family: 'Oxygen', sans-serif;
+
+// Sizing variables
+$sidebar-base-width: 17rem;
