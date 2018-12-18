@@ -3,6 +3,9 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+    &:hover {
+        cursor: pointer;
+    }
     img {
         width: 100%;
         border: 5px solid $white;

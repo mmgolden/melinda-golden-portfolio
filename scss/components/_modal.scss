@@ -60,6 +60,7 @@
         &:focus {
             background: transparent;
             color: $primary-accent-color;
+            cursor: pointer;
         }
         i {
             position: relative;
