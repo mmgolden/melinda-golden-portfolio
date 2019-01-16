@@ -27,8 +27,26 @@
 
 })(jQuery); // End of use strict
 
+// Current year
+var currentYear = new Date().getFullYear();
+document.getElementById("current-year").textContent = currentYear;
+
 // Projects
 const projects = [
+  {
+    title: 'React Gallery',
+    image: '../img/gallery2.jpg',
+    description: 'This image gallery app was created using React. Using React Router, routes are set up for three default topic pages and a search page. Images are displayed from the Flickr API using Axios to fetch data. This project was bootstrapped with Create React App. ',
+    technology: [
+        'React',
+        'JavaScript',
+        'CSS'
+    ],
+    links: [
+        'https://github.com/mmgolden/react-gallery',
+        'https://mmgolden-react-gallery.netlify.com'
+    ]
+  },
   {
     title: 'Express Portfolio',
     image: '../img/express2.jpg',
@@ -40,7 +58,7 @@ const projects = [
     ],
     links: [
         'https://github.com/mmgolden/express-portfolio',
-        '#'
+        'https://mmgolden-express-portfolio.herokuapp.com/'
     ]
   },
   {
@@ -125,20 +143,6 @@ const projects = [
     links: [
         'https://github.com/mmgolden/jquery-lightbox',
         'https://mmgolden.github.io/jquery-lightbox/'
-    ]
-  },
-  {
-    title: 'Random Quote Generator',
-    image: '../img/quote2.jpg',
-    description: 'This app displays random quotes from women in tech automatically or by clicking on a button. It also changes the background color.',
-    technology: [
-        'JavaScript',
-        'CSS',
-        'HTML'
-    ],
-    links: [
-        'https://github.com/mmgolden/random-quote-generator',
-        'https://mmgolden.github.io/random-quote-generator/'
     ]
   },
   {
