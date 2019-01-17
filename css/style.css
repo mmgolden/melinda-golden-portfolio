@@ -627,60 +627,6 @@ section.resume-section .resume-item .resume-date {
   bottom: 0;
 }
 
-.skills-container {
-  border: 5px solid #f6f6f6;
-  min-height: 220px;
-  padding: 25px;
-  margin-bottom: 20px;
-}
-.skills-container h3 {
-  font-size: 1.2rem;
-  color: #3DC4DE;
-  font-weight: bold;
-  text-align: center;
-}
-.skills-container h3:after {
-  content: "";
-  display: block;
-  background: #f6f6f6;
-  width: 100%;
-  height: 2px;
-  margin: 10px 0 20px 0;
-}
-@media (min-width: 1300px) {
-  .skills-container h3 {
-    font-size: 1.2rem;
-  }
-}
-@media (min-width: 1400px) {
-  .skills-container h3 {
-    font-size: 1.3rem;
-  }
-}
-.skills-container img {
-  height: 60px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-.skills-container ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 0;
-}
-.skills-container ul li {
-  font-size: 1.125rem;
-  line-height: 30px;
-  text-align: center;
-  margin-bottom: 5px;
-  color: #656565;
-}
-@media (min-width: 1200px) {
-  .skills-container {
-    margin-bottom: 0;
-  }
-}
-
 #contact a {
   color: #3DC4DE;
   font-size: 1.2rem;
@@ -703,6 +649,7 @@ section.resume-section .resume-item .resume-date {
   border-color: transparent;
   border-radius: 0;
   padding: 25px 20px;
+  background: #f6f6f6;
 }
 
 .with-errors {
@@ -713,7 +660,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 footer {
-  background: #F0F0F0;
+  background: #f6f6f6;
   text-align: center;
   padding: 20px 0;
   color: #777;
